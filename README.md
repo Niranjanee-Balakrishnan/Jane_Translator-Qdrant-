@@ -23,3 +23,41 @@ Node.js (v14 or higher)
 Python (3.8 or higher)
 
 Azure OpenAI API access
+
+Structure
+
+Translator-LLM/
+_____________
+
+|
+
+├── backend/
+
+│   ├── app.py   
+
+│   ├── requirements.txt 
+
+│   └── .env 
+
+├── frontend/
+
+│   ├── public/
+
+│   │   └── index.html
+
+│   ├── src/
+
+│   │   ├── components/
+
+│   │   │   ├── home.js 
+
+│   │   │   └── enter.js 
+
+│   │   ├── styles/
+
+│   │   │   └── app.css 
+
+│   │   └── App.js            
+
+│   └── package.json         
+|_____________________
